@@ -114,15 +114,15 @@ p {
   max-width:70%;
   max-height:90%;
 }
-.work1:hover {
-  box-shadow: -2px -2px 4px gray;
+.work1 img:hover {
+  box-shadow: -2px -2px 20px gray;
 }
-.work2:hover {
-  box-shadow: -2px -2px 4px gray;
+.work2 img:hover {
+  box-shadow: -2px -2px 20px gray;
 }
 
-.work3:hover {
-  box-shadow: -2px -2px 4px gray;
+.work3 img:hover {
+  box-shadow: -2px -2px 20px gray;
 }
 #showcase-work {
   background: url('../images/latest-work-bg.png') no-repeat center center/cover;
