@@ -19,6 +19,13 @@ body {
 .main-paragraph {
   color: #333;
 }
+.work-paragraph {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.5rem;
+
+}
 a {
   text-decoration: none;
 }
@@ -63,6 +70,7 @@ p {
   border:none;
   border-radius: 5px;
   font-weight: bold;
+  cursor: pointer;
 }
 .btn:hover {
   background-image: linear-gradient(45deg,rgb(235, 9, 65),rgb(165, 13, 64));
@@ -72,4 +80,82 @@ p {
 /* Biography */
 #biography {
   background: url("../images/biography-bg.png") no-repeat center center/cover;
+}
+/* showcase work */
+.work-header {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 3rem;
+  letter-spacing: 5px;
+  color: #333;
+}
+.work1,
+.work2,
+.work3 {
+  width:100%;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  overflow:hidden;
+}
+.work1 img{
+  flex-shrink:0;
+  max-width:70%;
+  max-height:90%;
+}
+.work2 img{
+  flex-shrink:0;
+  max-width:70%;
+  max-height:90%;
+}
+.work3 img{
+  flex-shrink:0;
+  max-width:70%;
+  max-height:90%;
+}
+.work1:hover {
+  box-shadow: -2px -2px 4px gray;
+}
+.work2:hover {
+  box-shadow: -2px -2px 4px gray;
+}
+
+.work3:hover {
+  box-shadow: -2px -2px 4px gray;
+}
+#showcase-work {
+  background: url('../images/latest-work-bg.png') no-repeat center center/cover;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last {
+  margin-top: 2rem;
+  border: none;
+}
+
+#main-footer {
+  background: url("../images/footer-bg.png") no-repeat center center/cover;
+  height: 80vh;
+  width: 100%;
+}
+.footer-header {
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+  margin: 10px;
+  letter-spacing: 2px;
+}
+.footer-pargraph {
+  padding: 20px;
+  color: #696969;
+  font-size: 13px;
+  text-align: center;
+}
+.footer-main-paragraph {
+  color: #292929;
 }
